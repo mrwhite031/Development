@@ -1,0 +1,80 @@
+img {
+   height: 200px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+
+.one {
+   border-radius: 10px;
+}
+
+.two {
+   height: 200px;
+   width: 200px;
+   object-fit: cover;
+   object-position: center;
+}
+
+.three {
+   height: 200px;
+   width: 200px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 100px;
+}
+
+.box1 {
+   width: 140px;
+   height: 30px;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 5px;
+   padding-left: 10px;
+   border-color: rgb(175, 175, 175);
+   margin-right: 10px;
+}
+
+.box2 {
+   width: 300px;
+   height: 30px;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 15px;
+   padding-left: 10px;
+   box-shadow: 1px 1px 2px rgb(147, 136, 136);
+}
+
+.four {
+   vertical-align: middle;
+   margin-top: 60px;
+   margin-right: 20px;
+   height: 50px;
+   width: 50px;
+   object-fit: cover;
+   object-position: center;
+   border-radius: 35px;
+}
+
+.box3 {
+   vertical-align: middle;
+   margin-top: 50px;
+   height: 70px;
+   width: 260px;
+   border: none;
+}
+
+.box3::placeholder {
+   font-size: 20px;
+}
+
+.b1 {
+   vertical-align: middle;
+   margin-top: 50px;
+   height: 40px;
+   width: 80px;
+   color: White;
+   background-color: rgb(125, 139, 231);
+   border: none;
+   border-radius: 20px;
+   font-weight: bold;
+}
